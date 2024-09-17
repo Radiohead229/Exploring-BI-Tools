@@ -30,6 +30,30 @@ Step 4 - Check that superset container is running in docker containers.
 Step 5 - Go to command line and type `docker --version` to check if its fucntioning or not in local computer.
 
 Step 6 - Now type-in the 4 commands as it is to set up apache superset making sure you have copied your latest tag from docker conatiners. 
+(also can find your latest tag (will appear on top) and copy it from the [Docker Hub Website](https://hub.docker.com/r/apache/superset/tags) )
+
+**Command lines to run in Command Promt** -
+
+`docker run -d -p 8080:8088 -e "SUPERSET_SECRET_KEY=mysuperset" --name superset apache/superset:<put your latest tag here>`
+
+`docker exec -it superset superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@superset.com --password admin`
+
+`docker exec -it superset superset db upgrade`
+
+`docker exec -it superset superset load_examples`
+
+`docker exec -it superset superset init`
+
+Step 7 - Go to your web browser and type in the link <`http://localhost:8080/superset/welcome/`>
+
+Step 8 -Pop up window for credentials, <Username: `admin`, Password: `admin`>
+
+**INSTALLATION DONE**
+ >[!IMPORTANT]
+ >Make sure you have sample charts and dashboards visible in your superset user interface.
+
+
+
 
 
 
