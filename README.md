@@ -26,7 +26,9 @@ Making a comprehensive comparison report detailing on the following:
 # Installation & Setup and other Guides:
 >[!Note]
 >Hosted on Windows 11, 64 bit operaing System, x64 based processor & WSL enabled, using Docker Desktop.
-## Follow the steps to setup and install Superset using Docker Compose
+
+
+## Installing Superset using Docker Compose...
 Step 1 - Install Docker Desktop from [here](https://www.docker.com/products/docker-desktop/)
 
 Step 2 - Install Git from [here](https://git-scm.com/download/win)
@@ -54,11 +56,24 @@ Step 6 - Now type-in the 4 commands as it is to set up apache superset making su
 
 Step 7 - Go to your web browser and type in the link <`http://localhost:8080/superset/welcome/`>
 
-Step 8 -Pop up window for credentials, <Username: `admin`, Password: `admin`>
+Step 8 -Pop up window for credentials, Username: `admin`, Password: `admin`
 
-**INSTALLATION DONE**
+**SUPERSET INSTALLATION DONE**
  >[!IMPORTANT]
  >Make sure you have sample charts and dashboards visible in your superset user interface.
+>
+
+## Connecting MySQL Database to Apache Superset...
+Step 1 - Go to the right top corner of the superset window and click on the `+` drop-down-menu and click on `connect database`.
+
+Step 2 - Click on the MySQL option and Connect using the SQl alchmey uri and type-in 
+
+<`mysql://<database_user>:<database_password>@host.docker.internal:3306/<your_schema`> 
+
+where add only the database_user, database_password, and your_schema keep the rest as it is.
+
+**DATABASE CONNECTION DONE**
+
 
 
 
