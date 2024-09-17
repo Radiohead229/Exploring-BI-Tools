@@ -15,10 +15,18 @@ Making a comprehensive comparison report detailing on the following:
    - **Time Series** and **Trend Analysis**
 
 
-## Installation & Setup and other Guides:
+# Tools Used
+- Docker Desktop
+- Git
+- Apache Superset
+- MySQL
+- Metabase
+
+
+# Installation & Setup and other Guides:
 >[!Note]
 >Hosted on Windows 11, 64 bit operaing System, x64 based processor & WSL enabled, using Docker Desktop.
-# Follow the steps to setup and install Superset using Docker Compose
+## Follow the steps to setup and install Superset using Docker Compose
 Step 1 - Install Docker Desktop from [here](https://www.docker.com/products/docker-desktop/)
 
 Step 2 - Install Git from [here](https://git-scm.com/download/win)
