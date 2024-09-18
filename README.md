@@ -37,7 +37,7 @@ Step 3 - Search for apache superset in docker -> Pull -> Image will be created -
 
 Step 4 - Check that superset container is running in docker containers.
 
-Step 5 - Go to command line and type `docker --version` to check if its fucntioning or not in local computer.
+Step 5 - Go to command line and type `docker --version` to check if its functioning or not in local computer.
 
 Step 6 - Now type-in the 4 commands as it is to set up apache superset making sure you have copied your latest tag from docker conatiners. 
 (also can find your latest tag (will appear on top) and copy it from the [Docker Hub Website](https://hub.docker.com/r/apache/superset/tags) )
