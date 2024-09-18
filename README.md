@@ -73,6 +73,8 @@ Step 2 - Click on the MySQL option and Connect using the SQl alchmey uri and typ
 where add only the database_user, database_password, and your_schema keep the rest as it is.
 
 **DATABASE CONNECTION DONE**
+>[!NOTE]
+>If test connection does not work check for necessary driver installation in the [documentation](https://superset.apache.org/docs/configuration/databases/)  
 
 
 
