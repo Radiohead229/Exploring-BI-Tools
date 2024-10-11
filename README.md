@@ -1,5 +1,5 @@
 # Exploring-BI-Tools
-### A Visualization Project on Exploring different Open Source BI Tools namely Apache Superset and Metabase.
+### A Visualization Project on Exploring two different Open Source BI Tools namely Apache Superset and Metabase.
 ## End-to-End Project Idea:
 Building two fully **functional dashboards** created using the same dataset  — one using **Apache Superset** and the other using **Metabase**. The dashboards should showcase a range of **visualizations, filters**, and interactions.
 
@@ -67,14 +67,31 @@ Step 1 - Go to the right top corner of the superset window and click on the `+` 
 
 Step 2 - Click on the MySQL option and Connect using the SQl alchmey uri and type-in 
 
-<`mysql://<database_user>:<database_password>@host.docker.internal:3306/<your_schema`> 
+`mysql://<database_user>:<database_password>@host.docker.internal:3306/<your_schema`
 
-where add only the database_user, database_password, and your_schema keep the rest as it is.
+here add only the database_user, database_password, and your_schema keep the rest as it is.
 
-**DATABASE CONNECTION DONE**
+**DATABASE CONNECTION DONE.**
 >[!NOTE]
 >If test connection does not work check for necessary driver installation in the [documentation](https://superset.apache.org/docs/configuration/databases/)  
 
+
+
+## #3 Installing Metabase using Docker Compose...
+Step 1 - Install Docker Desktop from [here](https://www.docker.com/products/docker-desktop/)
+
+Step 2 - Install Git from [here](https://git-scm.com/download/win)
+
+Step 3- Follow the command prompt lines to run in terminal
+
+`docker pull metabase/metabase:latest` after which it is visible in your Docker images.
+  
+`docker run -d -p 3000:3000 --name metabase metabase/metabase` to run the Metabase container.
+  
+Step 4 - This will launch the Metabase server on port 3000 by default, you can access the port at `http://localhost:3000`.
+**METABASE INTALLATION DONE**
+
+## #4 Connecting MySQL Database to Metabase...
 
 
 
