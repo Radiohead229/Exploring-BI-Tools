@@ -92,7 +92,7 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 **METABASE INTALLATION DONE**
 
 ## #4 Connecting MySQL Database to Metabase...
-
+*yet to upload*
 
 
 
