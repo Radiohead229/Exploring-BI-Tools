@@ -58,7 +58,7 @@ Step 7 - Go to your web browser and type in the link <`http://localhost:8080/sup
 
 Step 8 -Pop up window for credentials, Username: `admin`, Password: `admin`
 
-**SUPERSET INSTALLATION DONE**
+**SUPERSET INSTALLATION DONE.**
  >[!IMPORTANT]
  >Make sure you have sample charts and dashboards visible in your superset UI. If not then look out for possible errors in your docker desktop while setting up superset, check the tag or restart the system.
 
@@ -89,7 +89,10 @@ Step 3- Follow the command prompt lines to run in terminal
 `docker run -d -p 3000:3000 --name metabase metabase/metabase` to run the Metabase container.
   
 Step 4 - This will launch the Metabase server on port 3000 by default, you can access the port at `http://localhost:3000`.
-**METABASE INTALLATION DONE**
+
+**METABASE INTALLATION DONE.**
+>[!TIP]
+>Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
 
 ## #4 Connecting MySQL Database to Metabase...
 *yet to upload*
