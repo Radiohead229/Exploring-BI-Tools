@@ -1,5 +1,5 @@
 # Exploring-BI-Tools
-### A Visualization Project on Exploring two different Open Source BI Tools namely Apache Superset and Metabase.
+### A Data Analysis Project on Exploring two different Open Source BI Tools namely Apache Superset and Metabase.
 ## End-to-End Project Idea:
 Building two fully **functional dashboards** created using the same dataset  — one using **Apache Superset** and the other using **Metabase**. The dashboards should showcase a range of **visualizations, filters**, and interactions.
 
@@ -95,7 +95,7 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 >Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
 
 ## #4 Connecting MySQL Database to Metabase...
-*yet to upload*
+*yet to upload...*
 
 
 
