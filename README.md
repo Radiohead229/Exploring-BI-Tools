@@ -22,6 +22,9 @@ Making a comprehensive comparison report detailing on the following:
 - MySQL
 - Metabase
 
+# Data Source Used
+The Primary dataset used in this project is taken from DA&FW (Department of Agriculture & Farmers Welfare) on the final estimatate of production of food grains. The file is located in the datasets folder 
+with .pdf extension.
 
 # Installation & Setup and other Guides:
 >[!Note]
