@@ -57,7 +57,7 @@ Step 6 - Now type-in the 4 commands as it is to set up apache superset making su
 
 `docker exec -it superset superset init`
 
-Step 7 - Go to your web browser and type in the link <`http://localhost:8080/superset/welcome/`>
+Step 7 - Go to your web browser and type in the link `http://localhost:8080/superset/welcome/`
 
 Step 8 -Pop up window for credentials, Username: `admin`, Password: `admin`
 
