@@ -23,8 +23,8 @@ Making a comprehensive comparison report detailing on the following:
 - Metabase
 
 # Data Source Used
-The Primary dataset used in this project is taken from DA&FW (Department of Agriculture & Farmers Welfare) on the final estimatate of production of food grains. The file is located in the datasets folder 
-with .pdf extension.
+The primary dataset in the project is a detailed record of the estimated production of varied Food grains, Cereals, Pulses, Oilseeds and Commercial crops across the varied harvesting seasons in India (Kharif, Rabi and Summer) from the year 2013 till 2024.
+The Dataset is provided by the Department of Agriculture and Farmers Welfare under the Ministry of Agriculture and Farmers Welfare, Government of India. The pdf file contains three tables in three different sheets with a combined total of 34 Rows and 13 Columns with all text data types in default. The source file is dated on 25.09.2024. 
 
 # Installation & Setup and other Guides:
 >[!Note]
