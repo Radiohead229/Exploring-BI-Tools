@@ -110,8 +110,8 @@ Step 3 - We can also use the Advanced option to connect MySQL databases using JD
 >[!NOTE]
 >MySQL is running locally and not inside a Docker container, so, we need to use host.docker.internal as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.
 
-
-
+# Description
+The Code Snippets for sql queries is given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
 
 
