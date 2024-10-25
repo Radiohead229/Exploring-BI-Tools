@@ -30,7 +30,7 @@ Link for the website- [Directorate of Economics and Statistics (DES)](https://de
 
 # Installation & Setup and other Guides:
 >[!Note]
->Hosted on Windows 11, 64 bit operaing System, x64 based processor & WSL enabled, using Docker Desktop.
+>Hosted on Windows 11, 64 bit operating System, x64 based processor & WSL enabled, using Docker Desktop.
 
 
 ## #1 Installing Superset using Docker Compose...
