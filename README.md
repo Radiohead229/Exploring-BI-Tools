@@ -68,7 +68,7 @@ Step 8 -Pop up window for credentials, Username: `admin`, Password: `admin`
 ## #2 Connecting MySQL Database to Apache Superset...
 Step 1 - Go to the right top corner of the superset window and click on the `+` drop-down-menu and click on `connect database`.
 
-Step 2 - Click on the MySQL option and Connect using the SQl alchmey uri and type-in 
+Step 2 - Click on the MySQL option and Connect using the **SQlalchmey uri** and type-in 
 
 `mysql://<database_user>:<database_password>@host.docker.internal:3306/<your_schema>`
 
@@ -98,7 +98,17 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 >Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
 
 ## #4 Connecting MySQL Database to Metabase...
-*yet to upload...*
+- Under the setting options, scroll to the Admin Settings, click on the Add a database.
+- Add all the needed credentials, to connect the desired schema to the metabase database.
+- We can also use the Advanced option to connect MySQL databases using JDBC connection string.
+
+**DATABASE CONNECTION DONE.**
+>[!NOTE]
+>MySQL is running locally and not inside a Docker container, so, we need to use host.docker.internal as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.
+
+
+
+
 
 
 
