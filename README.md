@@ -61,7 +61,7 @@ Step 6 - Now type-in the 4 commands as it is to set up apache superset making su
 
 Step 7 - Go to your web browser and type in the link `http://localhost:8080/superset/welcome/`
 
-Step 8 -Pop up window for credentials, Username: `admin`, Password: `admin`
+Step 8 - Pop up window for credentials, Username: `admin`, Password: `admin`
 
 **SUPERSET INSTALLATION DONE.**
  >[!IMPORTANT]
@@ -87,7 +87,7 @@ Step 1 - Install Docker Desktop from [here](https://www.docker.com/products/dock
 
 Step 2 - Install Git from [here](https://git-scm.com/download/win)
 
-Step 3- Follow the command prompt lines to run in terminal
+Step 3 - Follow the command prompt lines to run in terminal
 
 `docker pull metabase/metabase:latest` after which it is visible in your Docker images.
   
@@ -100,9 +100,11 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 >Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
 
 ## #4 Connecting MySQL Database to Metabase...
-- Under the setting options, scroll to the Admin Settings, click on the Add a database.
-- Add all the needed credentials, to connect the desired schema to the metabase database.
-- We can also use the Advanced option to connect MySQL databases using JDBC connection string.
+Step 1 - Under the setting options, scroll to the Admin Settings, click on the Add a database.
+
+Step 2 - Add all the needed credentials, to connect the desired schema to the metabase database.
+
+Step 3 - We can also use the Advanced option to connect MySQL databases using JDBC connection string.
 
 **DATABASE CONNECTION DONE.**
 >[!NOTE]
