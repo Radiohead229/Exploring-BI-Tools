@@ -24,7 +24,7 @@ Making a comprehensive comparison report detailing on the following:
 
 # Data Source Used
 The primary dataset in the project is a detailed record of the estimated production of varied Food grains, Cereals, Pulses, Oilseeds and Commercial crops across the varied harvesting seasons in India (Kharif, Rabi and Summer) from the year 2013 till 2024.
-The Dataset is provided by the Department of Agriculture and Farmers Welfare under the Ministry of Agriculture and Farmers Welfare, Government of India. The pdf file contains three tables in three different sheets with a combined total of 34 Rows and 13 Columns with all text data types in default. The source file is dated on 25.09.2024. 
+The Dataset is provided by the ___Department of Agriculture and Farmers Welfare___ under the ___Ministry of Agriculture and Farmers Welfare___, Government of India. The pdf file contains three tables in three different sheets with a combined total of __34 Rows__ and __13 Columns__ with all text data types in default. The source file is dated on 25.09.2024. 
 
 Link for the website- [Directorate of Economics and Statistics (DES)](https://desagri.gov.in)
 
@@ -100,20 +100,22 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 >Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
 
 ## #4 Connecting MySQL Database to Metabase...
-Step 1 - Under the setting options, scroll to the Admin Settings, click on the Add a database.
+Step 1 - Under the setting options, scroll to the Admin Settings, click on the ___Add a database___.
 
 Step 2 - Add all the needed credentials, to connect the desired schema to the metabase database.
 
-Step 3 - We can also use the Advanced option to connect MySQL databases using JDBC connection string.
+Step 3 - We can also use the Advanced option to connect MySQL databases using **JDBC connection string**.
 
 **DATABASE CONNECTION DONE.**
 >[!NOTE]
->MySQL is running locally and not inside a Docker container, so, we need to use host.docker.internal as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.
+>MySQL is running locally and not inside a Docker container, so, we need to use ___host.docker.internal___ as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.
 
 # Description
 The Code Snippets for sql queries is given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
-This sql query represents only the crops that grow in Rabi season. This is not a general query: this does not represent crops that grow only in 1 season. Maybe you can write a general query and then on adding filters for season -> it will give me crops that grow only in Rabi season /Kharif etc
+The following link highlights the gist for the sql query that represents only the crops that grow in Rabi season. This is **not a general query**: this does not represent crops that grow in 1 season rather it dynamically shows the results for crops that grow **only** in Kharif/Rabi and **not in any other Season**.
+
+https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2#file-cond_func-sql
 
 
 
