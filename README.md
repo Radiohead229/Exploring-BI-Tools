@@ -113,6 +113,9 @@ Step 3 - We can also use the Advanced option to connect MySQL databases using JD
 # Description
 The Code Snippets for sql queries is given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
+This sql query represents only the crops that grow in Rabi season. This is not a general query: this does not represent crops that grow only in 1 season. Maybe you can write a general query and then on adding filters for season -> it will give me crops that grow only in Rabi season /Kharif etc
+
+
 
 
 
