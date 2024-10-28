@@ -30,7 +30,7 @@ Link for the website- [Directorate of Economics and Statistics (DES)](https://de
 
 # Installation & Setup and other Guides:
 >[!Note]
->Hosted on Windows 11, 64 bit operating System, x64 based processor & WSL enabled, using Docker Desktop.
+>**Hosted on Windows 11, 64 bit operating System, x64 based processor & WSL enabled, using Docker Desktop.**
 
 
 ## #1 Installing Superset using Docker Compose...
@@ -78,7 +78,7 @@ here add only the database_user, database_password, and your_schema keep the res
 
 **DATABASE CONNECTION DONE.**
 >[!NOTE]
->If test connection does not work check for necessary driver installation in the [documentation](https://superset.apache.org/docs/configuration/databases/)  
+>**If test connection does not work check for necessary driver installation in the [documentation](https://superset.apache.org/docs/configuration/databases/)**
 
 
 
@@ -97,7 +97,7 @@ Step 4 - This will launch the Metabase server on port 3000 by default, you can a
 
 **METABASE INTALLATION DONE.**
 >[!TIP]
->Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)
+>**Follow the official documentaion of Metabase for further info [here](https://www.metabase.com/docs/latest/)**
 
 ## #4 Connecting MySQL Database to Metabase...
 Step 1 - Under the setting options, scroll to the Admin Settings, click on the ___Add a database___.
@@ -108,14 +108,14 @@ Step 3 - We can also use the Advanced option to connect MySQL databases using **
 
 **DATABASE CONNECTION DONE.**
 >[!NOTE]
->MySQL is running locally and not inside a Docker container, so, we need to use ___host.docker.internal___ as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.
+>**MySQL is running locally and not inside a Docker container, so, we need to use ___host.docker.internal___ as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.**
 
 # Description
 The Code Snippets for sql queries is given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
 The following link highlights the gist for the sql query that represents only the crops that grow in Rabi season. This is **not a general query**: this does not represent crops that grow in 1 season rather it dynamically shows the results for crops that grow **only** in Kharif/Rabi and **not in any other Season**.
 
-https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2#file-cond_func-sql
+_https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2#file-cond_func-sql_
 
 
 
