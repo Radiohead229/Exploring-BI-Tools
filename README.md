@@ -111,7 +111,7 @@ Step 3 - We can also use the Advanced option to connect MySQL databases using **
 >**MySQL is running locally and not inside a Docker container, so, we need to use ___host.docker.internal___ as the host name while connecting to Metabase (running inside a docker container). This basically refers to the host machine. As MySQL is not present inside the Docker container.**
 
 # Description
-The Code Snippets for sql queries is given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
+The Code Snippets for sql queries are given in [my gist](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
 The following link highlights the gist for the sql query that represents only the crops that grow in Rabi season. This is **not a general query**: this does not represent crops that grow in 1 season rather it dynamically shows the results for crops that grow **only** in Kharif/Rabi and **not in any other Season**.
 
