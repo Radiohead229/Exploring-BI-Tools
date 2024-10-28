@@ -65,7 +65,7 @@ Step 8 - Pop up window for credentials, Username: `admin`, Password: `admin`
 
 **SUPERSET INSTALLATION DONE.**
  >[!IMPORTANT]
- >Make sure you have sample charts and dashboards visible in your superset UI. If not then look out for possible errors in your docker desktop while setting up superset, check the tag or restart the system.
+ >**Make sure you have sample charts and dashboards visible in your superset UI. If not then look out for possible errors in your docker desktop while setting up superset, check the tag or restart the system.**
 
 ## #2 Connecting MySQL Database to Apache Superset...
 Step 1 - Go to the right top corner of the superset window and click on the `+` drop-down-menu and click on `connect database`.
