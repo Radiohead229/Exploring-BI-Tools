@@ -1,0 +1,140 @@
+/*body{
+    background:#c9f5d6 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+div[data-test-viz-type=big_number_total] {
+    background: linear-gradient(#eee, #fff);
+    border-radius: 8px;
+    padding: 2px;
+  }
+  div[data-test-viz-type=big_number_total]::after {
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 16px;
+    right: 30px;
+    /*border: 1px solid #666;*/
+    border-radius: 50px;
+    content:' ';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  /* details for each big number */
+  .dashboard-chart-id-129 div[data-test-viz-type=big_number_total]::after {
+    background-image: url("https://www.taropumps.com/media/2538/type-of-seeds-2.jpg");
+  }
+  .dashboard-chart-id-134 div[data-test-viz-type=big_number_total]::after {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg96Kz0CgO_Dh9rrDd4RUZE_SSsfJ71XhxzO2Yk0Am_OILl31_e-sIMb4fsH4WUGMcyGDAi4Wf-p3ySQPZImra9syydqUn8_T2HVWV2y5vswxIIH_L91vAaIc_FQ9FzauKZ-JrKONGSxGjU1FLFUqpKqWKUkYkdLbAbiHM6TmIJaE1ro9SNPO4LbuNknqk/s1200/%E0%A4%97%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BE-Sugarcane.jpg");
+  }
+  .dashboard-chart-id-135 div[data-test-viz-type=big_number_total]::after {
+    background-image: url("https://www.shutterstock.com/image-photo/blossom-sunflower-field-oilseed-crop-260nw-1462493558.jpg");
+  }
+  
+  div[data-test-viz-type=pie] {
+    background: radial-gradient(#e6e6fa, #ffe);
+    padding:4px;
+    border-radius:30px;
+    text-align: center;
+  }
+  
+  div[data-test-viz-type=big_number] {
+    background: linear-gradient(#eee, #fff);
+     border-radius: 8px;
+    padding: 2px;
+  }
+  
+  div[data-test-viz-type=echarts_timeseries_bar]{
+    background:linear-gradient(#ffe, #e6e6fa, #ffe);
+    border-radius: 15px;
+    padding:15px;
+    text-align: center;
+  }
+  .dashboard-chart-id-143 div[data-test-viz-type=big_number]{
+    background:linear-gradient(to bottom, #fff, #eee);
+    border-radius: 8px;
+    padding: 2px
+  }
+  .dashboard-chart-id-130 div[data-test-viz-type= echarts_area]{
+    text-align: center;
+    
+  }
+  .dashboard-chart-id-133 div[data-test-viz-type= echarts_timeseries_line]{
+    background: linear-gradient(to top, #e6e6fa, #ffe4);
+    border-radius: 15px;
+    padding:15px;
+    position: static;
+  }
+  
+  .dashboard-chart-id-131 div[data-test-viz-type=pivot_table_v2]
+  {
+    text-align: center;
+  }
+  /*changing the background styles for the top three big numbers
+  div[data-test-viz-type=big_number_total] {
+    position: static;
+    background: linear-gradient(#eee, #fff);
+    background-position: center center;
+    border-radius: 10px;
+    padding:3px;
+  }
+  
+  
+  changing the fonts of top 3 three big numbers
+  div[data-test-viz-type=big_number_total] .text-container {
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 4px 4px 8px #000;
+  }
+  
+  .dashboard-chart-id-136 div[data-test-viz-type=pie]{
+    position: static;
+    background:linear-gradient(#eaf7cb,#fff);
+    background-position: center center;
+    border-radius:5px;
+    padding: 7px;
+  }
+  */
+  
+  /*
+  .dashboard-chart-id-132 div[data-test-viz-type=big_number]{
+    position :static;
+    background:#ddd;
+    border-radius: 15px;
+    padding: 3px 3px 3px;
+    
+  }*/
+  
+  /*.dashboard-chart-id-137 div[data-test-viz-type=word_cloud]
+  {
+    position: static;
+    background:#;
+    background-position: center center;*/
+  
+  /*for the markdown text template*/
+  .dashboard-markdown h1{
+    color: #d35400 ;
+  }
+  .dashboard-markdown img{
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px #666;
+    position: absolute;
+    top: 12px;
+    right:100px;
+    transform: scale(.15);
+    transform-origin: top right;
+  }
+  
+  
+  
+  
+  /*
+  var bnbColors = [
+      //rausch    hackb      kazan      babu      lima        beach     tirol
+      '#ff5a5f', '#7b0051', '#007A87', '#00d1c1', '#8ce071', '#ffb400', '#b4a76c',
+      '#ff8083', '#cc0086', '#00a1b3', '#00ffeb', '#bbedab', '#ffd266', '#cbc29a',
+      '#ff3339', '#ff1ab1', '#005c66', '#00b3a5', '#55d12e', '#b37e00', '#988b4e',
+   ];
+  */
+  
