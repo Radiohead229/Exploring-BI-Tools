@@ -113,8 +113,9 @@ Step 3 - We can also use the Advanced option to connect MySQL databases using **
 # Description
 The Code Snippets for sql queries are given in [my gist1](https://gist.github.com/Radiohead229/cd2922b81aaccbb71df986970cd12ec2)
 
-The code snippets for the CSS Customizations made in the dashboards is provided [my gist2](https://gist.github.com/Radiohead229/9916959d91b0444899c786dcc461d963)
+The Code Snippets for the CSS Customizations made in the dashboards are provided in [my gist2](https://gist.github.com/Radiohead229/9916959d91b0444899c786dcc461d963)
 
+The Code Snippets for the HTML file for embedding the two dashboard urls are given in [my gist3](https://gist.github.com/Radiohead229/977a347177fa784b301225ea858b2294)
 
 The following link highlights the gist for the sql query that represents only the crops that grow in Rabi season. This is **not a general query**: this does not represent crops that grow in 1 season rather it dynamically shows the results for crops that grow **only** in Kharif/Rabi and **not in any other Season**.
 
