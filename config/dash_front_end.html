@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboards</title>
+    <style>
+        /* Button styling */
+        .dashboard-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .dashboard-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Truncate text for instructions */
+        .truncate {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 1; /* Change number to limit lines */
+            text-overflow: ellipsis;
+            max-height: 1.2em;
+            line-height: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualization using Crop Production Data</h1>
+    
+    <!-- Button for the Superset dashboard -->
+    <h2>Superset</h2>
+    <p class="truncate">(DO NOT Sign in, Click on Dashboards, Select 'Crop Production Analysis')</p>
+    <button class="dashboard-button" onclick="window.open('http://localhost:8080/superset/dashboard/p/MVBlgAWn3KW/', '_blank')">
+        Open Superset Dashboard
+    </button>
+
+    <!-- Button for the Metabase dashboard -->
+    <h2>Metabase</h2>
+    <button class="dashboard-button" onclick="window.open('http://localhost:3000/public/dashboard/a63ac768-a65f-4d7b-a645-d574c4ee1045', '_blank')">
+        Open Metabase Dashboard
+    </button>
+
+</body>
+</html>
