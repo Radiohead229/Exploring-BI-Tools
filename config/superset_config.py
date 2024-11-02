@@ -14,8 +14,8 @@ SESSION_COOKIE_SAMESITE = 'None'  # Allows cookies to be sent with cross-site re
 
 # Role Configuration
 # Set permissions for public access users
-PUBLIC_ROLE_LIKE_GAMMA = False  # Makes the public role inherit permissions from Gamma (default user role)
-AUTH_ROLE_PUBLIC = 'newdelta'     # Sets the role assigned to unauthenticated users as Gamma, allowing limited data access
+PUBLIC_ROLE_LIKE_GAMMA = False  # Makes the public role not inherit permissions from Gamma (default user role)
+AUTH_ROLE_PUBLIC = 'newdelta'    # Sets the role assigned to unauthenticated users as newdelta, allowing limited data access
 
 # Security Settings
 # Configurations for Cross-Site Request Forgery (CSRF) protection and HTTP security policies
